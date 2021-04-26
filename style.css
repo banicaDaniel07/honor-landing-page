@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #08162A;  
+    width: 100vw;
+    height: 100vh; 
+    overflow: hidden;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    position: relative;
+    top: 78px;
+    left: 118px;
+    cursor: pointer;
+}
+
+.list {
+    position: relative;
+    top: 70px;
+    right: 189px;
+    z-index: 100;
+}
+.list ul {
+    display: flex;
+}
+.list ul li {
+    z-index: 500;
+    cursor: pointer;
+    list-style-type: none;
+    margin-left: 50px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.list ul li a{
+ 
+    color: white;
+    text-decoration: none;
+}
+
+.btn-pink {
+    background-color: F29494;
+    padding: 12px 23px;
+    
+
+}
+
+div .logo {
+    margin: 10px 846px 0 846px;
+    
+}
+.content {
+    margin: 0;
+    position: relative;
+    top: 85px;
+    left: 202px;
+    width: 611px;
+    height: 294px;
+    color: white;
+}
+.content h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 100px;
+    font-weight: 900;
+}
+.content h2 {
+    margin: 0;
+    padding: 0;
+    color: #EF9C9C;
+    font-size: 30px;
+}
+.content p {
+    font-size: 20px;
+
+}
+.watches {
+    position: relative;
+    top: 65px;
+    left: 140px;
+    display: flex;
+    color: white;
+}
+.white, .black {
+    margin: 0;
+    padding: 0;
+    width: 317px;
+    height: 372px;
+    background-color: #2B3544;
+    margin-top: 50px;
+    border-radius: 40px;
+    text-align: center;
+}
+.white h3, .black h3{
+    font-size: 40px;
+    font-weight: 900;
+    color: white;
+    margin: 17px auto 0;
+}
+.white p, .black p{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    margin-left: 60px;
+    margin-top: 0;
+}
+.white img, .black img{
+    margin-top: -20px;
+}
+.white{
+    margin-right: 39px;
+}
+
+.smartwatch {
+    position: absolute;
+    top: 90px;
+    right: 93px;
+}
+.slide {
+    position: absolute;
+    width: 784px;
+    height: 100%;
+    background-color: black;
+    z-index: 1300;
+}
+.links {
+    display: grid;
+}
+.links a{
+    text-decoration: none;
+    font-size: 48px;
+    margin-top: 32px;
+    color: white;
+    margin: 130px 0 0 130px;
+    line-height: 50px;
+}
